@@ -1,0 +1,5 @@
+﻿Data for new district registration test: county name; district name; district address; district electors number
+GinApygarda;Tauralaukio;Tauralaukio g.1;2500
+GinApygarda;Perkelos;Baltijos pr.1;3500
+OutletCity;Baltijos;Baltijos g.2;3000
+OutletCity;Romuvos;Romuvos g.5;6000

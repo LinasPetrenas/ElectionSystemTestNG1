@@ -1,0 +1,2 @@
+URL for Election System Data Base
+jdbc:h2:~/Desktop/election-system-master/db/electionDB;mv_store=True;AUTO_SERVER=TRUE;IFEXISTS=TRUE

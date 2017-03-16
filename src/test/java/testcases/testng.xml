@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ElectionSystemSuite">
+	<parameter name="webSiteAddress" value="http://localhost:8080/"></parameter>
+	<test name="RegressionTest" preserve-order="false">
+		<classes>
+			<class name="testclasses.AdminPageCountyOperationsTest" />
+			<class name="testclasses.AdminPageDistrictOperationsTest" />
+			<class name="testclasses.AdminPageLoginTest" />
+			<class name="testclasses.AdminPagePartyOperationsTest" />
+			<class name="testclasses.AdminPageRepresentativeRegistrationTest" />
+			<class name="testclasses.RepresentativePageVoteSubmitTest" />
+			<class name="testclasses.SearchForCandidatesTest" />
+		</classes>
+	</test>
+</suite>
+

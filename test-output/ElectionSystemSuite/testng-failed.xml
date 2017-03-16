@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ElectionSystemSuite]">
+  <parameter name="webSiteAddress" value="http://localhost:8080/"/>
+  <test name="RegressionTest(failed)">
+    <classes>
+      <class name="testclasses.AdminPageCountyOperationsTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="loginAsAdministrator"/>
+          <include name="countyDeleteTest"/>
+          <include name="countyDeleteCandidateListTest"/>
+        </methods>
+      </class> <!-- testclasses.AdminPageCountyOperationsTest -->
+      <class name="testclasses.AdminPagePartyOperationsTest">
+        <methods>
+          <include name="deletePartyWithCandidateListTest"/>
+          <include name="initialize"/>
+          <include name="loginAsAdministrator"/>
+          <include name="partyRegistrationTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- testclasses.AdminPagePartyOperationsTest -->
+      <class name="testclasses.AdminPageLoginTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="loginWithInvalidDataTest"/>
+          <include name="shutDown"/>
+          <include name="openHomePage"/>
+        </methods>
+      </class> <!-- testclasses.AdminPageLoginTest -->
+      <class name="testclasses.AdminPageDistrictOperationsTest">
+        <methods>
+          <include name="districtDeletionTest"/>
+          <include name="initialize"/>
+          <include name="loginAsAdministrator"/>
+        </methods>
+      </class> <!-- testclasses.AdminPageDistrictOperationsTest -->
+      <class name="testclasses.RepresentativePageVoteSubmitTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="login"/>
+          <include name="submitVotesForPartiesTest"/>
+        </methods>
+      </class> <!-- testclasses.RepresentativePageVoteSubmitTest -->
+      <class name="testclasses.SearchForCandidatesTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="openSearchPage"/>
+          <include name="shutDown"/>
+        </methods>
+      </class> <!-- testclasses.SearchForCandidatesTest -->
+      <class name="testclasses.AdminPageRepresentativeRegistrationTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="loginAsAdministrator"/>
+          <include name="shutDown"/>
+        </methods>
+      </class> <!-- testclasses.AdminPageRepresentativeRegistrationTest -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [ElectionSystemSuite] -->

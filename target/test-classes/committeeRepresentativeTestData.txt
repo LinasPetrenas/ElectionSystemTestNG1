@@ -1,0 +1,5 @@
+Committee representatives' data for vote registration test: district name; total candidate count, total party count
+Tauralaukio;5;3;GinApygarda
+Perkelos;5;3;GinApygarda
+Baltijos;6;3;OutletCity
+Romuvos;6;3;OutletCity

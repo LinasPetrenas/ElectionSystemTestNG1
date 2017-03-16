@@ -1,0 +1,4 @@
+Data for new party registration test: party name;party ordinal number
+Programuotoju partija;15
+Testuotoju partija;16
+Destytoju partija;17

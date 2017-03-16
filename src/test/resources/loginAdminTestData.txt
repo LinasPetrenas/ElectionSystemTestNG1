@@ -1,0 +1,2 @@
+Data for login to administrator page: correct user name; correct password
+admin;admin

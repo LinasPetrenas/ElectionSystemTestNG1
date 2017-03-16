@@ -1,0 +1,5 @@
+Test data to register committee representative: username, password, constituency, district, name and surname
+6666;6666;GinApygarda;Tauralaukio;Eduardas;Mironas
+7777;7777;GinApygarda;Perkelos;Romas;Sironas
+8888;8888;OutletCity;Baltijos;Nadzia;Fedorova
+9999;9999;OutletCity;Romuvos;Stasys;Steponavicius
